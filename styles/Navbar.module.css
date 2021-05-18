@@ -1,0 +1,24 @@
+.navbar {
+    height: 60px;
+    box-shadow: 2px 2px 14px 0px rgb(216, 216, 216);
+    display: flex;
+}
+
+.image {
+    height: 31px;
+    margin-left: 22px;
+    margin-top: 15px;
+    padding-right: 10px;
+}
+
+.text {
+    width: 86px;
+    line-height: 0;
+    height: 15px;
+}
+
+.separator {
+    border-right: #1b2d54 1px solid;
+    height: 40px;
+    margin-top: 10px;
+}
