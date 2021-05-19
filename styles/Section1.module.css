@@ -1,0 +1,8 @@
+.label_agrupated {
+    display: flex;
+}
+
+.select {
+    width: 100%;
+    margin-top: 12px !important;
+}

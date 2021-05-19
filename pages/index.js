@@ -24,7 +24,7 @@ export default function Home() {
             align="inherit"
             class="typography hydrated bp-mt-72">
             Solicitud de casos de uso analítica avanzada
-            </pichincha-typography>
+          </pichincha-typography>
           <p className={styles.paragraph}>
             Bienvenido al formulario de solicitud para casos de uso de analítica avanzada. El objetivo del mismo es poder recopilar la mayor cantidad de información sobre su caso de uso con el fin de gestionarlo eficientemente y asignarlo a un equipo de trabajo.
           </p>
