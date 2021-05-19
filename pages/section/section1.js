@@ -130,6 +130,35 @@ const FirstPost = () => {
                             <MenuItem value={30}>Thirty</MenuItem>
                         </Select>
                     </FormControl>
+
+                    <div className={stylesSection.label_agrupated}>
+                        <pichincha-typography
+                            variant="smallText"
+                            color="darkGrey"
+                            weight="bold"
+                            weight_color="500"
+                            align="inherit"
+                            class="typography hydrated bp-mr-4"
+                        >
+                            Identifique las áreas con las que se relaciona el caso de uso
+                        </pichincha-typography>
+                    </div>
+                    <FormControl variant="outlined" className={stylesSection.select}>
+                        <Select
+                            labelId="demo-simple-select-outlined-label"
+                            id="demo-simple-select-outlined"
+                            value={age}
+                            onChange={handleChange}
+                            style={{height: '48px'}}
+                        >
+                            <MenuItem value="">
+                                <em>None</em>
+                            </MenuItem>
+                            <MenuItem value={10}>Ten</MenuItem>
+                            <MenuItem value={20}>Twenty</MenuItem>
+                            <MenuItem value={30}>Thirty</MenuItem>
+                        </Select>
+                    </FormControl>
                 </form>
             </div>
         </Layout>
